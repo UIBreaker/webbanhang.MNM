@@ -5,15 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quản lý sản phẩm</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-    .product-image {
-        max-width: 100px;
-        height: auto;
-    }
-    </style>
+    <link rel="stylesheet" href="/WEBBANHANG/styles.css">
 </head>
 
-<body>
+<body >
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Quản lý sản phẩm</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -55,4 +50,4 @@
         }
     });
     </script>
-    <div class="container mt-4">
+  

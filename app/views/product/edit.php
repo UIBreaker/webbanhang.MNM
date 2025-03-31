@@ -1,4 +1,6 @@
 <?php include 'app/views/shares/header.php'; ?>
+<link rel="stylesheet" href="/WEBBANHANG/styles.css">
+
 <h1>Sửa sản phẩm</h1>
 <?php if (!empty($errors)): ?>
     <div class="alert alert-danger">

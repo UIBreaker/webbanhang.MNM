@@ -1,4 +1,4 @@
-<?php include 'app/views/shares/header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/WEBBANHANG/app/views/shares/header.php'; ?>
 <?php
 
 if (isset($errors)) {
@@ -37,4 +37,4 @@ if (isset($errors)) {
     </form>
 
 </div>
-<?php include 'app/views/shares/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/WEBBANHANG/app/views/shares/footer.php'; ?>

@@ -1,4 +1,5 @@
 <?php include 'app/views/shares/header.php'; ?>
+<link rel="stylesheet" href="/WEBBANHANG/styles.css">
 
 <h1>Giỏ hàng</h1>
 

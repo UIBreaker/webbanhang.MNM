@@ -1,9 +1,10 @@
+<link rel="stylesheet" href="/WEBBANHANG/styles.css">
 
 
 <!-- Bootstrap Footer -->
-<div class="container">
-  <footer class="py-5">
-    <div class="row">
+<div class="container-footer">
+  <footer>
+    <div class="row-footer">
       <div class="col-6 col-md-2 mb-3">
         <h5>Thông tin</h5>
         <ul class="nav flex-column">
@@ -34,19 +35,7 @@
       </ul>
     </div>
   </footer>
-  <style>
-    .form-control{
-    height: 61px;
-    }
 
-    .btn-primaryDK{
-       white-space: nowrap;
-       height: 61px;
-       width: 100px;
-       background-color: #007bff;
-       margin-left: 5px;
-    }
-  </style>
 </div>
 
 <!-- Font Awesome Icons -->

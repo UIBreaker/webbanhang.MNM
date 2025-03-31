@@ -25,11 +25,12 @@ class ProductController
     {
         $product = $this->productModel->getProductById($id);
 
-        if ($product) {
-            include 'app/views/product/show.php';
-        } else {
-            echo "Không thấy sản phẩm.";
+        $file_path = $_SERVER['DOCUMENT_ROOT'] . '/WEBBANHANG/app/views/product/show.php';
+        if (!file_exists($file_path)) {
+            die("File không tồn tại: " . $file_path);
         }
+        include $file_path;
+        
     }
 
     public function add()

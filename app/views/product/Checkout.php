@@ -1,4 +1,5 @@
 <?php include 'app/views/shares/header.php'; ?>
+<link rel="stylesheet" href="/WEBBANHANG/styles.css">
 
 
 <form method="POST" action="/webbanhang/Product/processCheckout">
