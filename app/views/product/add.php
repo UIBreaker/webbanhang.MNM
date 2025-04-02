@@ -6,8 +6,7 @@
     <div class="alert alert-danger">
         <ul>
             <?php foreach ($errors as $error): ?>
-
-<h1>Sửa sản phẩm</h1>
+<h1>Sửa sản phẩm</h1> 
 <?php if (!empty($errors)): ?>
     <div class="alert alert-danger">
         <ul>

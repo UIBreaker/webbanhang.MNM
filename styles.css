@@ -16,6 +16,10 @@
 
 /* product-list,list-group-item */
 
+.list-group-item h2 {
+
+}
+
 #product-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 cột đều nhau */
